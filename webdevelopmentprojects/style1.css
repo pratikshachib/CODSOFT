@@ -1,0 +1,127 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+}
+.hero{
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.heading h1{
+    color: #ff6347;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 35px;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+
+}
+.hero-content{
+    flex: 1;
+    width: 600px;
+    margin: 0px 25px;
+    color: #333;
+}
+.hero-content button{
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.hero-content p{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+.hero-image{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.h1 class{
+    text-align: center;
+    color: darkgreen;
+}
+.packages .box-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    text-align: center;
+}
+.packages .box-container.box{
+    flex: 1 1 30rem;
+    border-radius: 5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba;
+}
+.packages .box-container .box img{
+    height:25rem;
+    width:100%;
+    object-fit: cover;
+}
+.packages .box-container .box .content{
+    padding:2rem;
+}
+.packages .box-container .box .content h3{
+    font-size:2rem;
+    color:#333;
+}
+.packages .box-container .box .content h3 i{
+    color:var(--orange);
+}
+.packages .box-container .box .content p{
+    font-size:1.7rem;
+    color:#666;
+    padding:1rem 0;
+
+}
+.packages .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color:var(--orange);
+} 
+.packages .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+}
+.packages .box-container .box .content .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.book .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.book .row form{
+    flex: 1 1 40rem;
+}
+.book .row form .inputbox{
+  padding:.5rem 0;
+}
+
+  
+
+
+
